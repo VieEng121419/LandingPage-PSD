@@ -5,6 +5,67 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 body{
-    background-color: lightcyan !important;
+    background-color: rgb(243, 247, 247) !important;
+}
+
+#main{
+
+}
+
+#header{
+    background-color: burlywood;
+}
+
+#headertop{
+    display: flex  ;
+}
+
+#header .logo .logoKallyas{
+    padding-top: 46px;
+    padding-left: 66px;
+    height: 40%;
+    position: relative;
+    top: -6px;
+}
+
+#nav{
+    float: right;
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: 750px;
+    bottom: 30px;
+}
+
+#nav ul{
+
+}
+
+#nav > li > a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 154px;
+    padding: 0 20px;
+    font-size: 12px;
+}
+
+#nav > .home{
+    text-decoration: solid underline red 2px;
+}
+
+#container{
+
+}
+
+#contrac{
+
+}
+
+#footer{
+
 }
